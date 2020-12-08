@@ -5,80 +5,89 @@
     <meta charset="UTF-8">
     <title>Initiation intermédiaire aux échecs</title>
   </head>
-  <body class='page'>
-    <header>
-      <nav>
-       <ul id="navigateur">
-           <li class="nav">
-               <img href="#" src="Images/navbar.png" alt="navbar" width="50"/>
-               <ul id="menu">
-                   <li><a href="index.html">Accueil</a></li>
-                   <li><a href="Initiation-Mahjong.html">Initiation mahjong</a></li>
-                   <li><a href="Mains-Mahjong.html">Liste mains mahjong</a></li>
-                   <li><a href="Initiation-Echecs.html">Initiation bases échecs</a></li>
-                   <li><a href="Initiation-Intermed-Echecs.html">Initiation intermédiaire échecs</a></li>
-                   <li><a href="Page-Compétitive.html">Zone Compétitive</a></li>
-               </ul>
-           </li>
-       </ul>
-      </nav>
-    </header>
-    <h1>Initiation Intermédiaire aux échecs</h1>
-    <section>
-      <article class="">
-        <h2>Les règles spéciales des échecs</h2>
-        <p>Il existe quelques règles spéciales aux échecs qui peuvent sembler illogiques au premier abord. Elles ont été créées pour rendre le jeu plus amusant et intéressant.</p>
-        <h3>Promouvoir un pion</h3>
-        <p>Le pion dispose d’un autre coup spécial. Si un pion atteint l’autre bout de l’échiquier, il peut devenir n’importe quelle autre pièce, à l’exception d’un roi.</p>
-        <img src="Images/Initiation-Echecs/promotion-pion.jpeg" alt="Promotion possibles d'un Pion" width="404">
-        <p>Ceci s’appelle la promotion. Une idée fausse répandue est qu’un pion promu ne peut être remplacé que par une pièce qui a été capturée : ce n’est PAS vrai. Un pion est habituellement promu en dame. Seuls les pions peuvent être promus.</p>
-        <img src="Images/Initiation-Echecs/promotion-pion-dame.gif" alt="Promotion d'un Pion en Dame" width="404">
-        <h3>Prendre « en passant »</h3>
-        <p>La dernière règle concernant les pions s’appelle « la prise en passant ». Lorsqu’un pion avance de deux cases à son premier coup, et ce faisant se retrouve à côté d’un pion de l’adversaire (qui ne peut donc plus le capturer de manière classique), cet autre pion a la possibilité de capturer le premier « en passant », comme s’il ne s’était déplacé que d’une case.</p>
-        <img src="Images/Initiation-Echecs/prise-en-passant.jpeg" alt="Pise en Passant" height="254">
-        <p>Ce coup spécial doit être joué immédiatement, dans le tour qui suit le départ du pion pris. Voyez l’exemple ci-dessous pour mieux comprendre cette règle étrange, mais importante.</p>
-        <img src="Images/Initiation-Echecs/prise-en-passant.gif" alt="Prise en passant mais c'est un gif lul" width="404">
-        <h3>Le Roque</h3>
-        <p>Une autre règle spéciale des échecs s’appelle le roque. Il vous permet de faire d’une pierre deux coups : mettre votre roi à l’abri (dans la mesure du possible) et faire entrer une tour dans le jeu en la sortant de son coin. Le joueur déplace son roi latéralement de deux cases, puis pose la tour sur la case située immédiatement de l’autre côté de celui-ci. (Regardez l’exemple ci-dessous.) Pour pouvoir roquer, les conditions suivantes doivent toutefois être remplies :</p>
-        <ul>
-          <li>il doit s’agir du premier déplacement du roi</li>
-          <li>il doit s’agir du premier coup de la tour concernée</li>
-          <li>pour roquer, aucune pièce ne doit se trouver entre le roi et la tour</li>
-          <li>le roi ne peut pas se placer en échec ni traverser une ligne d'échec</li>
+  <body>
+    <div class='page'>
+      <header>
+        <nav>
+        <ul id="navigateur">
+            <li class="nav">
+                <img href="#" src="Images/navbar.png" alt="navbar" width="50"/>
+                <ul id="menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="Initiation-Mahjong.html">Initiation mahjong</a></li>
+                    <li><a href="Mains-Mahjong.html">Liste mains mahjong</a></li>
+                    <li><a href="Initiation-Echecs.html">Initiation bases échecs</a></li>
+                    <li><a href="Initiation-Intermed-Echecs.html">Initiation intermédiaire échecs</a></li>
+                    <li><a href="Page-Compétitive.html">Zone Compétitive</a></li>
+                </ul>
+            </li>
         </ul>
-        <p>En roquant avec la tour la plus proche du roi, vous effectuez un « petit roque ». Si vous utilisez la tour la plus éloignée, en faisant traverser au roi la case de départ de la dame, cela s’appelle un « grand roque ». Quelle que soit la direction du roque, le roi se déplace toujours de deux cases.</p>
-        <img src="Images/Initiation-Echecs/roque.gif" alt="Exemple de Roque" width="404">
-      </article>
-      <hr>
-      <article>
-        <h2>Etude des stratégies</h2>
-        <p>Tout joueur d'échecs doit savoir quatre choses:</p>
-        <h3>Protégez votre roi</h3>
-        <p>Placez votre roi près d’un coin de l’échiquier, où il sera généralement plus en sécurité. Ne différez pas le roque : souvent, mieux vaut roquer aussi tôt que possible. N’oubliez pas que quelle que soit l’efficacité de votre attaque, elle ne servira à rien si votre adversaire fait échec et mat en premier !</p>
-        <h3>Ne faites pas cadeau de vos pièces</h3>
-        <p>N’abandonnez pas vos pièces par négligence ! Chacune d’elles est précieuse et peut vous permettre de mater l’adversaire. Il existe un système simple que la plupart des joueurs utilisent pour attribuer une valeur propre à chaque pièce. Que valent les pièces ?</p>
-        <ul>
-          <li>Un pion vaut 1 point</li>
-          <li>Un cavalier vaut 3 points</li>
-          <li>Un fou vaut 3 points</li>
-          <li>Une tour vaut 5 points</li>
-          <li>La dame vaut 9 points</li>
-          <li>Le roi est infiniment précieux</li>
-        </ul>
-        <p>À la fin de la partie, ce système de points ne signifie rien en soi. Il permet simplement de prendre des décisions en cours de jeu et de savoir s’il est préférable de capturer, d’échanger ou de jouer un autre coup.</p>
-        <img src="Images/Initiation-Echecs/prise-piece.gif" alt="Perte bête de pièce" width="404">
-        <h3>Contrôlez le centre de l’échiquier</h3>
-        <p>Vous devez vous efforcer de contrôler le centre de l’échiquier avec vos pièces et vos pions. Contrôler le centre procure généralement l’espace nécessaire pour manœuvrer les pièces tout en empêchant l’adversaire d’accéder à des cases importantes. Dans l’exemple ci-dessus, les Blancs jouent de bons coups pour contrôler le centre tandis que les Noirs jouent de mauvais coups.</p>
-        <h3>Utilisez toutes vos pièces</h3>
-        <p>Dans l’exemple ci-dessus, les blancs ont activé toutes leurs pièces ! Vos pièces ne servent à rien lorsqu’elles restent sur la première rangée. Essayez de toutes les développer afin d’avoir un maximum de possibilités lorsque vous attaquerez le roi. N’utiliser qu’une ou deux pièces pour attaquer vous permettra rarement de venir à bout d’un adversaire digne de ce nom.</p>
-      </article>
-      <hr>
-      <article>
-        <h2>Entraînez-vous en jouant beaucoup de parties</h2>
-        <p>La meilleure chose que vous puissiez faire pour vous améliorer aux échecs est de jouer beaucoup de parties ! Que ce soit à la maison, avec vos amis ou votre famille, ou bien dans notre local, il est important de jouer souvent.</p>
-      </article>
-    </section>
-
-
+        </nav>
+      </header>
+      <main>
+        <h1>Initiation Intermédiaire aux échecs</h1>
+        <section>
+          <article class="">
+            <h2>Les règles spéciales des échecs</h2>
+            <p>Il existe quelques règles spéciales aux échecs qui peuvent sembler illogiques au premier abord. Elles ont été créées pour rendre le jeu plus amusant et intéressant.</p>
+            <h3>Promouvoir un pion</h3>
+            <p>Le pion dispose d’un autre coup spécial. Si un pion atteint l’autre bout de l’échiquier, il peut devenir n’importe quelle autre pièce, à l’exception d’un roi.</p>
+            <img src="Images/Initiation-Echecs/promotion-pion.jpeg" alt="Promotion possibles d'un Pion">
+            <p>Ceci s’appelle la promotion. Une idée fausse répandue est qu’un pion promu ne peut être remplacé que par une pièce qui a été capturée : ce n’est PAS vrai. Un pion est habituellement promu en dame. Seuls les pions peuvent être promus.</p>
+            <img src="Images/Initiation-Echecs/promotion-pion-dame.gif" alt="Promotion d'un Pion en Dame" >
+            <h3>Prendre « en passant »</h3>
+            <p>La dernière règle concernant les pions s’appelle « la prise en passant ». Lorsqu’un pion avance de deux cases à son premier coup, et ce faisant se retrouve à côté d’un pion de l’adversaire (qui ne peut donc plus le capturer de manière classique), cet autre pion a la possibilité de capturer le premier « en passant », comme s’il ne s’était déplacé que d’une case.</p>
+            <img src="Images/Initiation-Echecs/PEP1.png" alt="Pise en Passant">
+            <img src="Images/Initiation-Echecs/PEP2.png" alt="Pise en Passant">
+            <img src="Images/Initiation-Echecs/PEP3.png" alt="Pise en Passant">
+            <p>Ce coup spécial doit être joué immédiatement, dans le tour qui suit le départ du pion pris. Voyez l’exemple ci-dessous pour mieux comprendre cette règle étrange, mais importante.</p>
+            <img src="Images/Initiation-Echecs/prise-en-passant.gif" alt="Prise en passant mais c'est un gif lul">
+            <h3>Le Roque</h3>
+            <p>Une autre règle spéciale des échecs s’appelle le roque. Il vous permet de faire d’une pierre deux coups : mettre votre roi à l’abri (dans la mesure du possible) et faire entrer une tour dans le jeu en la sortant de son coin. Le joueur déplace son roi latéralement de deux cases, puis pose la tour sur la case située immédiatement de l’autre côté de celui-ci. (Regardez l’exemple ci-dessous.) Pour pouvoir roquer, les conditions suivantes doivent toutefois être remplies :</p>
+            <ul>
+              <li>il doit s’agir du premier déplacement du roi</li>
+              <li>il doit s’agir du premier coup de la tour concernée</li>
+              <li>pour roquer, aucune pièce ne doit se trouver entre le roi et la tour</li>
+              <li>le roi ne peut pas se placer en échec ni traverser une ligne d'échec</li>
+            </ul>
+            <p>En roquant avec la tour la plus proche du roi, vous effectuez un « petit roque ». Si vous utilisez la tour la plus éloignée, en faisant traverser au roi la case de départ de la dame, cela s’appelle un « grand roque ». Quelle que soit la direction du roque, le roi se déplace toujours de deux cases.</p>
+            <img src="Images/Initiation-Echecs/roque.gif" alt="Exemple de Roque">
+          </article>
+          <hr>
+          <article>
+            <h2>Etude des stratégies</h2>
+            <p>Tout joueur d'échecs doit savoir quatre choses:</p>
+            <h3>Protégez votre roi</h3>
+            <p>Placez votre roi près d’un coin de l’échiquier, où il sera généralement plus en sécurité. Ne différez pas le roque : souvent, mieux vaut roquer aussi tôt que possible. N’oubliez pas que quelle que soit l’efficacité de votre attaque, elle ne servira à rien si votre adversaire fait échec et mat en premier !</p>
+            <h3>Ne faites pas cadeau de vos pièces</h3>
+            <p>N’abandonnez pas vos pièces par négligence ! Chacune d’elles est précieuse et peut vous permettre de mater l’adversaire. Il existe un système simple que la plupart des joueurs utilisent pour attribuer une valeur propre à chaque pièce. Que valent les pièces ?</p>
+            <ul>
+              <li>Un pion vaut 1 point</li>
+              <li>Un cavalier vaut 3 points</li>
+              <li>Un fou vaut 3 points</li>
+              <li>Une tour vaut 5 points</li>
+              <li>La dame vaut 9 points</li>
+              <li>Le roi est infiniment précieux</li>
+            </ul>
+            <p>À la fin de la partie, ce système de points ne signifie rien en soi. Il permet simplement de prendre des décisions en cours de jeu et de savoir s’il est préférable de capturer, d’échanger ou de jouer un autre coup.</p>
+            <img src="Images/Initiation-Echecs/prise-piece.gif" alt="Perte bête de pièce">
+            <h3>Contrôlez le centre de l’échiquier</h3>
+            <p>Vous devez vous efforcer de contrôler le centre de l’échiquier avec vos pièces et vos pions. Contrôler le centre procure généralement l’espace nécessaire pour manœuvrer les pièces tout en empêchant l’adversaire d’accéder à des cases importantes. Dans l’exemple ci-dessus, les Blancs jouent de bons coups pour contrôler le centre tandis que les Noirs jouent de mauvais coups.</p>
+            <h3>Utilisez toutes vos pièces</h3>
+            <p>Dans l’exemple ci-dessus, les blancs ont activé toutes leurs pièces ! Vos pièces ne servent à rien lorsqu’elles restent sur la première rangée. Essayez de toutes les développer afin d’avoir un maximum de possibilités lorsque vous attaquerez le roi. N’utiliser qu’une ou deux pièces pour attaquer vous permettra rarement de venir à bout d’un adversaire digne de ce nom.</p>
+          </article>
+          <hr>
+          <article>
+            <h2>Entraînez-vous en jouant beaucoup de parties</h2>
+            <p>La meilleure chose que vous puissiez faire pour vous améliorer aux échecs est de jouer beaucoup de parties ! Que ce soit à la maison, avec vos amis ou votre famille, ou bien dans notre local, il est important de jouer souvent.</p>
+          </article>
+        </section>
+      </main>
+      <footer><!-- Contact-->
+        <p>Nous sommes au Trou, à côtés de l'Amicale des Elèves</p>
+        <p>Pour plus d'information ou signaler un beug veuillez contacter Guillaume AUBUT :
+        loremipsum@etud.insa-toulouse.fr </p>
+      </footer>
+    </div>
   </body>
 </html>
