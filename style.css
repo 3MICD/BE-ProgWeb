@@ -2,11 +2,11 @@ html,body{
     background-image: url("Images/background.png");
     background-color: #cccccc;
     height: 100%;
+    width: 100%;
     padding: 0;
     margin: 0;
     font-family: sans-serif;
     position:relative;
-    box-sizing: border-box;
     z-index:-1;
 }   
 
@@ -53,37 +53,38 @@ main img {
     background-color: rgb(41, 41, 41);
 }
 
-
-
-
-
-
-
-
-
 .navbtn {
+
     background-color: #424242;
     color: white;
-    padding: 16px;
-    font-size: 16px;
+    padding: 1vw;
+    font-size: 1vw;
     border: none;
-    border-radius:15px;
-    height: 87px;
-    width: 87px;
+    border-radius:1vw;
+    width: 4vw;
+    height: 4vw;
+
 }
-  
+
+.navbtn img {
+    
+    width:2vw;
+
+}
+
 .nav {
     position: fixed;
-    top:0px;
+    top:0vw;
+    height: 4vw;
+    width: 4vw;
 }
-  
+
 .nav-content {
     display: none;
     position: absolute;
-    top: 0px;
-    left: 105px;
-    height: 87px;
-    width:100%;
+    top: 0vw;
+    left: 4vw;
+    height: 4vw;
     z-index: 1;
     align-items: center;
 }
@@ -91,18 +92,23 @@ main img {
 .nav-content a {
     color: white;
     font-weight: bold;
-    padding: 33px 16px;
+    height: 4vw;
+    font-size:0.9vw;
+    padding-top: 50%;
+    padding: 0 1.5em;
     text-decoration: none;
-    display: block;
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
   
 .nav-content a:hover {
     
     color: rgb(9, 199, 9);
-    border-bottom: 2px solid rgb(9, 199, 9);
-    border-left: 1px solid rgba(19, 18, 18, 0.76);
-    border-right: 1px solid rgba(19, 18, 18, 0.76);
+    border-bottom: 0.2vw solid rgb(9, 199, 9);
+    border-left: 0.1vw solid rgba(19, 18, 18, 0.76);
+    border-right: 0.1vw solid rgba(19, 18, 18, 0.76);
 
 }
   
@@ -114,12 +120,15 @@ main img {
 
 .nav:hover {
 
-    width:100%;
+    width:100vw;
     background-color: #1d1c1cc7;
 
 }
 
 .nav:hover .navbtn {
     background-color: #25242400;
+    width:4vw;
+    height:4vw;
 }
+
 
