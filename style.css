@@ -7,6 +7,7 @@ html,body{
     font-family: sans-serif;
     position:relative;
     box-sizing: border-box;
+    z-index:-1;
 }   
 
 main{
@@ -14,10 +15,13 @@ main{
     padding:8px;
     border-radius: 15px;
     display:block;
+    margin:10px;
+    margin-bottom:95px;
 }
 
 .page {
 
+    z-index: -1;
     right:20%;
     left:20%;
     position:absolute;
@@ -25,7 +29,6 @@ main{
     min-height: 100%;
     height: auto;
     margin: auto;
-    padding: 10px;
     background: rgb(110, 122, 109);
     background-size:cover;
     border-right: 5px solid rgb(75, 74, 74);
@@ -41,98 +44,82 @@ main img {
 
 }
 
-header {
-    padding: 10px;
-}
-
-footer {
-    position:relative;
-}
-
-
-nav a:link{
-    font-weight: bold;
-    color: darkslategray;
-    text-decoration:none;
-} 
-
-main h1{
-    color: red;
-} 
-
-main li:nth-child(odd) {
-    color: rgb(0, 0, 0);
-}
-
-main li:first-child {
-    font-weight: bold;
+.pied {
+    display:block;
+    position:absolute;
+    bottom:0px;
+    height:90px;
+    width:100%;
+    background-color: rgb(41, 41, 41);
 }
 
 
 
 
 
+
+
+
+
+.navbtn {
+    background-color: #424242;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius:15px;
+    height: 87px;
+    width: 87px;
+}
+  
 .nav {
+    position: fixed;
+    top:0px;
+}
+  
+.nav-content {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 105px;
+    height: 87px;
+    width:100%;
+    z-index: 1;
+    align-items: center;
+}
+  
+.nav-content a {
+    color: white;
+    font-weight: bold;
+    padding: 33px 16px;
+    text-decoration: none;
+    display: block;
+    align-items: center;
+}
+  
+.nav-content a:hover {
+    
+    color: rgb(9, 199, 9);
+    border-bottom: 2px solid rgb(9, 199, 9);
+    border-left: 1px solid rgba(19, 18, 18, 0.76);
+    border-right: 1px solid rgba(19, 18, 18, 0.76);
+
+}
+  
+.nav:hover .nav-content {
     display: flex;
     flex-flow: row nowrap;
-    align-items: center;
-    width: 100%;
+    white-space: nowrap;
 }
 
-#menu {
-    transition: all .5s;
-    opacity:0;
-    width: 100%;
-}
+.nav:hover {
 
-.nav:hover #menu {
-    transition: all .5s;
-    opacity:1;
-}
-
-
-#navigateur, #navigateur ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    height:50px;
-}
-
-#navigateur img {
-
-    padding:2px;
+    width:100%;
+    background-color: #1d1c1cc7;
 
 }
 
-#navigateur {
-/* on centre le menu dans la page */
-    text-align: left;
+.nav:hover .navbtn {
+    background-color: #25242400;
 }
-
-#navigateur ul li {
-/* on enlève ce comportement pour les liens du sous menu */
-    display: inherit;
-    display: inline-block;
-    padding: 2px;
-    margin: 2px;
-    background-color: rgba(49, 46, 46, 0.315);
-    border-radius: 10px;
-
-}
-
-#navigateur ul li:hover {
-    background-color: rgba(201, 199, 199, 0.315);
-    border-radius: 10px;
-}
-
-#navigateur ul li a {
-    padding: 3px;
-    margin: 3px;
-    color:rgb(167, 164, 164);
-}
-
-#navigateur ul li a:hover {
-    color:black;
-}
-
 

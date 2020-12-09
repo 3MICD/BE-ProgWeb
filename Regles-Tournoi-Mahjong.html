@@ -1,98 +1,93 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <meta charset="UTF-8">
-  <title>Règles Tournoi Mahjong</title>
-</head>
-<body>
-  <div class='page'>
-    <header>
-      <nav>
-      <ul id="navigateur">
-          <li class="nav">
-              <img href="#" src="Images/navbar.png" alt="navbar" width="50"/>
-              <ul id="menu">
-                  <li><a href="index.html">Accueil</a></li>
-                  <li><a href="Initiation-Mahjong.html">Initiation mahjong</a></li>
-                  <li><a href="Mains-Mahjong.html">Liste mains mahjong</a></li>
-                  <li><a href="Initiation-Echecs.html">Initiation bases échecs</a></li>
-                  <li><a href="Initiation-Intermed-Echecs.html">Initiation intermédiaire échecs</a></li>
-                  <li><a href="Page-Compétitive.html">Zone Compétitive</a></li>
-                  <li><a href="Regles-Tournoi-Mahjong.html">Règles tournoi mahjong</a></li>
-              </ul>
-          </li>
-      </ul>
-      </nav>
-    </header>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Règles Tournoi Mahjong</title>
+  </head>
+  <body>
+    <div class="nav">
+      <button class="navbtn"><img href="#" src="Images/navbar.png" alt="navbar" width="50"/></button>
+      <div class="nav-content">
+        <a href="index.html">Accueil</a>
+        <a href="Initiation-Mahjong.html">Initiation mahjong</a>
+        <a href="Mains-Mahjong.html">Liste mains mahjong</a>
+        <a href="Initiation-Echecs.html">Initiation bases échecs</a>
+        <a href="Initiation-Intermed-Echecs.html">Initiation intermédiaire échecs</a>
+        <a href="Page-Compétitive.html">Zone Compétitive</a>
+        <a href="Regles-Tournoi-Mahjong.html">Règles tournoi mahjong</a>
+        <a href="Regles-Tournoi-Echecs.html">Règles tournoi échecs</a>
+      </div>
+    </div>
+    <div class='page'>
+      <main>
+        <section><!-- présentation Actitivités du Clubs-->
+          <article>
+            <h1>Règles de comportement en tournoi</h1>
+            <ul>
+              <li>Fair play et respect des adversaires</li>
+              <li>Il est interdit de discuter de stratégie, de donner des indications, d’avertir un joueur ou de donner des
+                  informations. Si vous vous aperçevez qu’un joueur n’a pas le bon nombre de tuiles, qu’il a fait une erreur dans la
+                  composition d’une figure ou qu’il a oublié de prendre une tuile (de remplacement), ne faites aucun commentaire.</li>
+              <li>A tout moment, vous devez laisser vos tuiles visibles pour les autres joueurs. Ne séparez pas vos tuiles, ne les
+                  placez pas les unes sur les autres ou { l’envers sur la table et ne jouez pas « sans raison » avec vos tuiles.</li>
+              <li>Quand vous défaussez une tuile, assurez-vous que les autres joueurs puissent la voir. Ne la cachez pas avec votre
+                  main ou vos doigts et prenez en compte le fait que les joueurs ne sont pas tous placés « favorablement » pour bien
+                  voir vos défausses</li>
+              <li>Mettez en évidence la tuile gagnante, qu’elle soit réclamée ou piochée. Dans le cas contraire, il n’est pas possible de compter les points pour « Finir au Bord, au Milieu, sur la Paire », « Dernière Tuile Existante » et « Neuf Portes ».
+              </li>
+              <li>Toute contestation sera réglée par un arbitre. Si un arbitre est demandé, le jeu s’arrête immédiatement – une fois
+                  que le jeu a repris, l’arbitrage n’est plus possible. L’arbitre a aussi toute autorité pour sanctionner un joueur surpris en train de tricher, de faire obstruction ou qui tente de gagner du temps, même si les autres joueurs ne s’en aperçoivent pas.</li>
+              <li>Un joueur qui est en retard pour une session, subit une pénalité de 10 points si le retard est inférieur à
+                  10 minutes et de 20 points si le retard est de 10 à 15 minutes. Pendant ce temps, le jeu ne démarre pas. Au-delà de 15 minutes, le joueur est disqualifié pour la session en cours et un joueur remplaçant prend sa place. Les points sont déduits uniquement du score du joueur – s’il est disqualifié, il ne marque pas les points de table pour cette session.</li>
+              <li>Toucher une tuile de la muraille signifie prendre cette tuile. Un joueur ne peut pas « changer d’avis » et décider
+                  de réclamer une tuile défaussée.</li>
+            </ul>
+          </article>
+          <article>
+            <h1>Règles techniques en tournoi</h1>
+            <ul>
+              <li>Chaque joueur débute avec 30 000 points.</li>
+              <li>Le uma est : +15 / +5 / -5 / -15.</li>
+              <li>Si deux joueur ont le même nombre de points, ils partagent l'uma total.</li>
+              <li>Les tanyaos ouverts sont autorisés.</li>
+              <li>L'appel de substitution (kuikae) est interdit.</li>
+              <li>Dora, ura dora, kan dora et kan ura dora sont utilisées.</li>
+              <li>Pas de cinq rouges.</li>
+              <li>Un kan déclaré après riichi qui change l'attente ou la structure d'une main n'est pas autorisé. Si cela arrive, alors le résultat de la main est un chonbo si la main fini sur un tirage exhaustif.</li>
+              <li>Riichi est uniquement autorisé si le joueur le déclarant a un autre tour de tsumo.</li>
+              <li>Tenpai renchan: Le dealer reste à l'Est s'il gagne, ou s'il est tenpai et personne ne gagne.</li>
+              <li>Le keishiki tenpai est autorisé.</li>
+              <li>Chaque renchan et tirage interrompu ajoute 300 points à la prochaine main gagnante.</li>
+              <li>Dans le cas d'un tirage exhaustif, les joueurs non-tenpai paye collectivement 3000 points qui seront divisés entre les joueurs tenpai.</li>
+              <li>Pas d'agari yame.</li>
+              <li>Seulement un seul gagnant : de multiples appels ron sont résolus par l'ordre du tour des joueurs (coûts de tête).
+              </li>
+              <li>La priorité des appels va au joueur déclarant le ron, puis le premier appelant.</li>
+              <li>La responsabilité de paiement s'applique uniquement pour les trois grands dragons et les quatre grands vents.</li>
+              <li>Tous les paris riichi restants sur la table à la fin du hanchan reste sur la table.</li>
+              <li>Pas de comptage de yakuman: 11 han et plus donnent un sanbaiman.</li>
+              <li>Pas de double yakuman.</li>
+              <li>Arrondissement au supérieur du mangan : 4 han 30 fu, 3 han 60 fu et plus donnent un mangan. </li>
+              <li>Pas de Nagashi Mangan.</li>
+              <li>La Bénédiction de l’Homme vaut un mangan.</li>
+              <li>Tous les Verts ne sont pas réquis pour avoir un dragon vert.</li>
+              <li>Le Treize Orphelins est autorisé pour voler un kong caché.</li>
+              <li>Une double paire vaut 4 fu.</li>
+              <li>Rinshan-tsumo vaut 2 fu.</li>
+            </ul>
+          </article>
+        </section>
+      </main>
+      <hr>
 
-    <main>
-      <section><!-- présentation Actitivités du Clubs-->
-        <article>
-          <h1>Règles de comportement en tournoi</h1>
-          <ul>
-            <li>Fair play et respect des adversaires</li>
-            <li>Il est interdit de discuter de stratégie, de donner des indications, d’avertir un joueur ou de donner des
-                informations. Si vous vous aperçevez qu’un joueur n’a pas le bon nombre de tuiles, qu’il a fait une erreur dans la
-                composition d’une figure ou qu’il a oublié de prendre une tuile (de remplacement), ne faites aucun commentaire.</li>
-            <li>A tout moment, vous devez laisser vos tuiles visibles pour les autres joueurs. Ne séparez pas vos tuiles, ne les
-                placez pas les unes sur les autres ou { l’envers sur la table et ne jouez pas « sans raison » avec vos tuiles.</li>
-            <li>Quand vous défaussez une tuile, assurez-vous que les autres joueurs puissent la voir. Ne la cachez pas avec votre
-                main ou vos doigts et prenez en compte le fait que les joueurs ne sont pas tous placés « favorablement » pour bien
-                voir vos défausses</li>
-            <li>Mettez en évidence la tuile gagnante, qu’elle soit réclamée ou piochée. Dans le cas contraire, il n’est pas possible de compter les points pour « Finir au Bord, au Milieu, sur la Paire », « Dernière Tuile Existante » et « Neuf Portes ».
-            </li>
-            <li>Toute contestation sera réglée par un arbitre. Si un arbitre est demandé, le jeu s’arrête immédiatement – une fois
-                que le jeu a repris, l’arbitrage n’est plus possible. L’arbitre a aussi toute autorité pour sanctionner un joueur surpris en train de tricher, de faire obstruction ou qui tente de gagner du temps, même si les autres joueurs ne s’en aperçoivent pas.</li>
-            <li>Un joueur qui est en retard pour une session, subit une pénalité de 10 points si le retard est inférieur à
-                10 minutes et de 20 points si le retard est de 10 à 15 minutes. Pendant ce temps, le jeu ne démarre pas. Au-delà de 15 minutes, le joueur est disqualifié pour la session en cours et un joueur remplaçant prend sa place. Les points sont déduits uniquement du score du joueur – s’il est disqualifié, il ne marque pas les points de table pour cette session.</li>
-            <li>Toucher une tuile de la muraille signifie prendre cette tuile. Un joueur ne peut pas « changer d’avis » et décider
-                de réclamer une tuile défaussée.</li>
-          </ul>
-        </article>
-        <article>
-          <h1>Règles techniques en tournoi</h1>
-          <ul>
-            <li>Chaque joueur débute avec 30 000 points.</li>
-            <li>Le uma est : +15 / +5 / -5 / -15.</li>
-            <li>Si deux joueur ont le même nombre de points, ils partagent l'uma total.</li>
-            <li>Les tanyaos ouverts sont autorisés.</li>
-            <li>L'appel de substitution (kuikae) est interdit.</li>
-            <li>Dora, ura dora, kan dora et kan ura dora sont utilisées.</li>
-            <li>Pas de cinq rouges.</li>
-            <li>Un kan déclaré après riichi qui change l'attente ou la structure d'une main n'est pas autorisé. Si cela arrive, alors le résultat de la main est un chonbo si la main fini sur un tirage exhaustif.</li>
-            <li>Riichi est uniquement autorisé si le joueur le déclarant a un autre tour de tsumo.</li>
-            <li>Tenpai renchan: Le dealer reste à l'Est s'il gagne, ou s'il est tenpai et personne ne gagne.</li>
-            <li>Le keishiki tenpai est autorisé.</li>
-            <li>Chaque renchan et tirage interrompu ajoute 300 points à la prochaine main gagnante.</li>
-            <li>Dans le cas d'un tirage exhaustif, les joueurs non-tenpai paye collectivement 3000 points qui seront divisés entre les joueurs tenpai.</li>
-            <li>Pas d'agari yame.</li>
-            <li>Seulement un seul gagnant : de multiples appels ron sont résolus par l'ordre du tour des joueurs (coûts de tête).
-            </li>
-            <li>La priorité des appels va au joueur déclarant le ron, puis le premier appelant.</li>
-            <li>La responsabilité de paiement s'applique uniquement pour les trois grands dragons et les quatre grands vents.</li>
-            <li>Tous les paris riichi restants sur la table à la fin du hanchan reste sur la table.</li>
-            <li>Pas de comptage de yakuman: 11 han et plus donnent un sanbaiman.</li>
-            <li>Pas de double yakuman.</li>
-            <li>Arrondissement au supérieur du mangan : 4 han 30 fu, 3 han 60 fu et plus donnent un mangan. </li>
-            <li>Pas de Nagashi Mangan.</li>
-            <li>La Bénédiction de l’Homme vaut un mangan.</li>
-            <li>Tous les Verts ne sont pas réquis pour avoir un dragon vert.</li>
-            <li>Le Treize Orphelins est autorisé pour voler un kong caché.</li>
-            <li>Une double paire vaut 4 fu.</li>
-            <li>Rinshan-tsumo vaut 2 fu.</li>
-          </ul>
-        </article>
-      </section>
-    </main>
-    <hr>
+      <div class="pied"><!-- Contact-->
+        <p>Nous sommes au Trou, à côtés de l'Amicale des Elèves</p>
+        <p>Pour plus d'information ou signaler un beug veuillez contacter Guillaume AUBUT :
+        loremipsum@etud.insa-toulouse.fr </p>
+      </div>
+    </div>
 
-    <footer><!-- Contact-->
-      <p>Nous sommes au Trou, à côtés de l'Amicale des Elèves</p>
-      <p>Pour plus d'information ou signaler un beug veuillez contacter Guillaume AUBUT :
-      loremipsum@etud.insa-toulouse.fr </p>
-    </footer>
-  </div>
-
-</body>
+  </body>
 </html>
