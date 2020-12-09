@@ -13,7 +13,7 @@ main{
     background-color: rgba(194, 152, 152, 0.658);
     padding:8px;
     border-radius: 15px;
-    
+    display:block;
 }
 
 .page {
@@ -22,6 +22,7 @@ main{
     left:20%;
     position:absolute;
     width:60%;
+    min-height: 100%;
     height: auto;
     margin: auto;
     padding: 10px;
@@ -42,14 +43,10 @@ main img {
 
 header {
     padding: 10px;
-
 }
 
 footer {
-
     position:relative;
-    bottom:0px;
-    
 }
 
 
