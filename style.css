@@ -1,8 +1,12 @@
 html,body{
-    background-image: url("Images/background.png");
-    background-color: #cccccc;
-    height: 100%;
-    width: 100%;
+
+    background: url("Images/background.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vw;
+    width: 100vw;
     padding: 0;
     margin: 0;
     font-family: sans-serif;
@@ -12,55 +16,140 @@ html,body{
 
 main{
     background-color: rgba(194, 152, 152, 0.658);
-    padding:8px;
-    border-radius: 15px;
+    padding:1vw;
+    border-radius: 0.3vw;
     display:block;
-    margin:10px;
-    margin-bottom:95px;
+    margin:1vw;
+    margin-bottom:10vw;
 }
 
 .page {
 
     z-index: -1;
-    right:20%;
-    left:20%;
+    right:20vw;
+    left:20vw;
     position:absolute;
-    width:60%;
-    min-height: 100%;
+    width:60vw;
+    min-height: 100vw;
     height: auto;
     margin: auto;
     background: rgb(110, 122, 109);
     background-size:cover;
-    border-right: 5px solid rgb(75, 74, 74);
-    border-left: 5px solid rgb(75, 74, 74);
+    border-right: 0.3vw solid rgb(75, 74, 74);
+    border-left: 0.3vw solid rgb(75, 74, 74);
+}
+
+main p {
+
+    font-size: 1.3vw;
+
+}
+
+main h1 {
+
+    font-size: 2.2vw;
+    font-weight: bold;
+    
+}
+
+main h2 {
+
+    font-size: 1.65vw;
+    font-weight: bold;
+    
+}
+
+main h3 {
+
+    font-size: 1.3vw;
+    font-weight: bold;
+    font-style: italic;
+
 }
 
 main img {
 
-    width: 30%;
-    padding: 3px;
-    margin: 3px;
+    width: 17vw;
+    padding: 0.1vw;
+    margin: 0.1vw;
     align-items: center;
 
+}
+
+.img {
+
+    width: 56vw;
+    text-align: center;
+    
+}
+
+main ul {
+
+    position:relative;
+    left:1vw;
+    font-size: 1.3vw;
+    margin:1vw;
+}
+
+main ol {
+
+    position:relative;
+    left:1vw;
+    font-size: 1.3vw;
+    margin:1vw;
+    
+}
+
+main li{
+
+    position:relative;
+    left:1vw;
+    font-size: 1.3vw;
+    margin:1vw;
+    
+}
+
+main article {
+
+    margin: 0.1vw;
+    padding: 0.4vw;
+    border-bottom:0.1vw solid black;
+    
 }
 
 .pied {
     display:block;
     position:absolute;
-    bottom:0px;
-    height:90px;
-    width:100%;
-    background-color: rgb(41, 41, 41);
+    bottom:0vw;
+    left:-0.3vw;
+    height:8vw;
+    width:60vw;
+
+    background-color: rgb(207, 205, 205);
+    border-top: 1vw solid black;
+    border-right: 0.3vw solid black;
+    border-left: 0.4vw solid black;
+    border-radius:0.3vw;
+    text-align:center;
+    font-size: 1.3vw;
 }
 
-.navbtn {
 
+
+
+
+
+
+
+.navbtn {
+    position: absolute;
+    top:0;
     background-color: #424242;
     color: white;
-    padding: 1vw;
+    padding: 2vw;
     font-size: 1vw;
     border: none;
-    border-radius:1vw;
+    border-radius:0.3vw;
     width: 4vw;
     height: 4vw;
 
@@ -68,6 +157,9 @@ main img {
 
 .navbtn img {
     
+    position:absolute;
+    top:1vw;
+    left:1vw;
     width:2vw;
 
 }
