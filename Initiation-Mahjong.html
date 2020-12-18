@@ -1,19 +1,26 @@
 <!DOCTYPE HTML>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Initiation-Mahjong</title>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Accueil</a>
-        <a href="Initiation-Mahjong.html">Initiation mahjong</a>
-        <a href="Mains-Mahjong.html">Liste mains mahjong</a>
-        <a href="Initiation-Echecs.html">Initiation échecs</a>
-        <a href="Initiation-Intermed-Echecs.html">Initiation intermédiaire échecs</a>
-        <a href="Page-Compétitive.html">Zone Compétitive</a>
-     </nav>
-  <div class="page">
+  <div class="nav">
+    <button class="navbtn"><img href="#" src="Images/navbar.png" alt="navbar" width="50"/></button>
+    <div class="nav-content">
+      <a href="index.html">Accueil</a>
+      <a href="Initiation-Mahjong.html">Initiation mahjong</a>
+      <a href="Mains-Mahjong.html">Liste mains mahjong</a>
+      <a href="Initiation-Echecs.html">Initiation bases échecs</a>
+      <a href="Initiation-Intermed-Echecs.html">Initiation intermédiaire échecs</a>
+      <a href="Page-Compétitive.html">Zone Compétitive</a>
+      <a href="Regles-Tournoi-Mahjong.html">Règles tournoi mahjong</a>
+      <a href="Regles-Tournoi-Echecs.html">Règles tournoi échecs</a>
+    </div>
+  </div>
+  <div class='page'>
     <main>
         <h1>Mahjong Riichi</h1>
         <h2>Initiation au Mahjong</h2>
@@ -22,31 +29,37 @@
                 <h3>Les tuiles</h3>
                 <p>Un jeu de riichi mahjong est composé de trente-quatre tuiles différentes chacunes en quatre exemplaires. Le but au mahjong est de former une main de quatorze tuiles d'une forme valide.</p>
                 <p>Il existe quatre familles de tuiles différentes. Les trois familles de base qui sont numérotées de un à neuf.</p>
-                <img src="Images/Initiation-Mahjong/manfamily.png" height="84" alt="Famille des caractères"/>
-                <p> La famille des pièces (pin) </p>
-                <img src="Images/Initiation-Mahjong/soufamily.png" height="84" alt="Famille des bambous"/>
+                <div class="img"><img src="Images/Initiation-Mahjong/manfamily.png" alt="Famille des caractères"/></div>
+                <p>La famille des caractères (man)</p>
+                <div class="img"><img src="Images/Initiation-Mahjong/soufamily.png" alt="Famille des bambous"/></div>
                 <p>La famille des bambous (sou)</p>
-                <img src="Images/Initiation-Mahjong/pinfamily.png" height="84" alt="Famille des pièces"/>
+                <div class="img"><img src="Images/Initiation-Mahjong/pinfamily.png" alt="Famille des pièces"/></div>
+                <p> La famille des pièces (pin) </p>
                 </p>A ces tuiles viennent s'ajouter la quatrième famille appellée famille des honneurs. Elle est composé de deux sous familles, les vents et les dragons.<p></p>
-                <img src="Images/Initiation-Mahjong/winds.png" height="84" alt="Famille des honneurs, vents"/>
-                <img src="Images/Initiation-Mahjong/dragons.png" height="84" alt="Famille des honneurs, dragons"/>
+                <div class="img"><img src="Images/Initiation-Mahjong/winds.png" height="84" alt="Famille des honneurs, vents"/></div>
+                <div class="img"><img src="Images/Initiation-Mahjong/dragons.png" height="84" alt="Famille des honneurs, dragons"/></div>
                 </article>
             <article>
                 <h3>La main</h3>
                 <p>Une main de départ au mahjong est donc composée de treize tuiles, puis à chaque tour d'un joueur, ce dernier va piocher une tuile regarder si il a gagné et si ce n'est pas le cas, défausser une tuile et passer au tour du joueur suivant.<br> Le jeu s'effectue dans le sens anti-horaire (ou trigonométrique).</p>
-                <img src="Images/Initiation-Mahjong/starting_hand.png" height="84" alt="Exemple de main de départ"/>
+                <div class="img"><img src="Images/Initiation-Mahjong/starting_hand.png" alt="Exemple de main de départ"/></div>
                 <br><br>
                 <p>Il existe trois types de groupement de tuiles au mahjong pour réaliser des mains valides :<br><br>La suite, composée de trois tuiles consécutives de la même famille.</p>
-                <img src="Images/Initiation-Mahjong/suite.png" height="84" alt="Image d'une suite"/>
+                <div class="img"><img src="Images/Initiation-Mahjong/suite.png" height="84" alt="Image d'une suite"/></div>
                 <p>Le brelan, composé de trois tuiles identiques de la même famille.</p>
-                <img src="Images/Initiation-Mahjong/brelan.png" height="84" alt="Image d'un brelan"/>
+                <div class="img"><img src="Images/Initiation-Mahjong/brelan.png" height="84" alt="Image d'un brelan"/></div>
                 <p>La paire, composée de deux tuiles identiques de la même famille.</p>
-                <img src="Images/Initiation-Mahjong/pair.png" height="84" alt="Image d'une paire"/>
+                <div class="img"><img src="Images/Initiation-Mahjong/pair.png" height="84" alt="Image d'une paire"/></div>
                 <p>Pour qu'une main puisse être déclarée comme gagnante, elle doit respecter certaines conditions. Etre composée de quatre groupes de trois (brelan ou suite) et d'une paire.</p>
-                <img src="Images/Initiation-Mahjong/winning_hand.png" height="84" alt="Image de main gagnante"/>
+                <div class="img"><img src="Images/Initiation-Mahjong/winning_hand.png" alt="Image de main gagnante"/></div>
             </article>
         </section>
     </main>
+    <div class="pied"><!-- Contact-->
+      <p>Nous sommes au Trou, à côtés de l'Amicale des Elèves</p>
+      <p>Pour plus d'information ou signaler un beug veuillez contacter Guillaume AUBUT :
+      loremipsum@etud.insa-toulouse.fr </p>
+    </div>
   </div>
 </body>
 </html>

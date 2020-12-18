@@ -1,6 +1,6 @@
 html,body{
 
-    background: url("Images/background.png") no-repeat center center fixed; 
+    background: url("Images/background.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -12,7 +12,7 @@ html,body{
     font-family: sans-serif;
     position:relative;
     z-index:-1;
-}   
+}
 
 main{
     background-color: rgba(194, 152, 152, 0.658);
@@ -49,14 +49,14 @@ main h1 {
 
     font-size: 2.2vw;
     font-weight: bold;
-    
+
 }
 
 main h2 {
 
     font-size: 1.65vw;
     font-weight: bold;
-    
+
 }
 
 main h3 {
@@ -69,7 +69,7 @@ main h3 {
 
 main img {
 
-    width: 17vw;
+    /* width: 17vw; */
     padding: 0.1vw;
     margin: 0.1vw;
     align-items: center;
@@ -78,9 +78,8 @@ main img {
 
 .img {
 
-    width: 56vw;
+    width: 100%;
     text-align: center;
-    
 }
 
 main ul {
@@ -97,7 +96,7 @@ main ol {
     left:1vw;
     font-size: 1.3vw;
     margin:1vw;
-    
+
 }
 
 main li{
@@ -106,7 +105,7 @@ main li{
     left:1vw;
     font-size: 1.3vw;
     margin:1vw;
-    
+
 }
 
 main article {
@@ -114,7 +113,7 @@ main article {
     margin: 0.1vw;
     padding: 0.4vw;
     border-bottom:0.1vw solid black;
-    
+
 }
 
 .pied {
@@ -156,7 +155,7 @@ main article {
 }
 
 .navbtn img {
-    
+
     position:absolute;
     top:1vw;
     left:1vw;
@@ -180,7 +179,7 @@ main article {
     z-index: 1;
     align-items: center;
 }
-  
+
 .nav-content a {
     color: white;
     font-weight: bold;
@@ -194,16 +193,16 @@ main article {
     align-content: center;
     flex-direction: column;
 }
-  
+
 .nav-content a:hover {
-    
+
     color: rgb(9, 199, 9);
     border-bottom: 0.2vw solid rgb(9, 199, 9);
     border-left: 0.1vw solid rgba(19, 18, 18, 0.76);
     border-right: 0.1vw solid rgba(19, 18, 18, 0.76);
 
 }
-  
+
 .nav:hover .nav-content {
     display: flex;
     flex-flow: row nowrap;
@@ -222,5 +221,3 @@ main article {
     width:4vw;
     height:4vw;
 }
-
-
