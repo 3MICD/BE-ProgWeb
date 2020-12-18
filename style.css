@@ -79,10 +79,22 @@ main img {
     text-align: center;
 }
 
-article .Echec1{
+.Echec1{
   width: 400px;
 }
 
+.EchecPE{
+    width: 250px;
+}
+
+.Mahjong{
+    width: 250px;
+    height: 94px;
+}
+
+.Mahjong2{
+    width: 150px;
+}
 
 
 main ul {
